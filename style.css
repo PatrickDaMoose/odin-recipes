@@ -1,12 +1,37 @@
+* {
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+a {
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    margin: 60px;
+    padding: 10px;
+}
+
+
 .titles {
     text-align: center;
     color: blanchedalmond;
     background-color: gray;
+    border: 2px;
+    border-color: black;
+    border-style: dotted;
+    border-radius: 4px;
 }
 
 .recipes {
     text-align: left;
     color: purple;
     background-color: gainsboro;
+    border-style: solid;
+    border-color: black;
+    padding: 10px auto;
+    height: 100px;
+    padding-top: 30px;
+
     
 }
